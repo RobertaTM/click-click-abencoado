@@ -44,7 +44,7 @@ header{
     font-weight: 500;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 600px){
     #img1{
         width: 35px;
         height: auto;
@@ -107,10 +107,22 @@ footer{
       bottom: 0;
     }
 
-    @media only screen and (max-width: 400px){
-        footer{
-
+  @media only screen and (max-width: 380px){
+        #img1{
+            width: 30px;
+            height: auto;
+        }#img2{
+            width: 30px;
+            height: auto;
+            
         }
+        #texto_header{
+            font-size: 22px;
+        }
+        h1{
+            font-size: 20px ;
+        }
+    
 
     }
     /* barra de rolagem */
